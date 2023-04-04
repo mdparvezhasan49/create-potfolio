@@ -5,7 +5,7 @@ h1{
     font-size: 50px;
 }
 .highlight{
-    color: brown;
+    color: crimson;
 }
 .half-width{
     width: 40%;
@@ -15,4 +15,14 @@ h1{
 }
 .half-width img{
    width: 100%;  
+}
+.background{
+    background-image: url("images/background.png");
+        
+}
+section{
+    height: 800px;
+}
+.color{
+    color: aqua;
 }
