@@ -8,21 +8,37 @@ h1{
     color: crimson;
 }
 .half-width{
-    width: 40%;
+    width: 40% ;
     float:left;
-    margin: 2%;
+    margin:4%;
     padding-left: 2%;
 }
 .half-width img{
-   width: 100%;  
+   width: 70%; 
+   float: right; 
 }
 .background{
     background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
         
 }
 section{
     height: 800px;
+    padding: 100px;
+    border: 2px solid red;
 }
 .color{
     color: aqua;
+}
+.moja{
+    padding: 5px 10px;
+    background-image: linear-gradient( 45deg, pink, orange);
+    text-decoration: none;
+    border-radius: 8px;
+    color: blue;
+    font-weight: 800;
+
+
 }
