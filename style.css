@@ -4,18 +4,24 @@ body{
 h1{
     font-size: 50px;
 }
-.highlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: aqua;
+}
+.orange-highlight{
     color: crimson;
 }
 .half-width{
-    width: 40% ;
+    width: 38% ;
     float:left;
     margin:4%;
     padding-left: 2%;
 }
 .half-width img{
    width: 70%; 
-   float: right; 
+  
 }
 .background{
     background-image: url("images/background.png");
@@ -26,8 +32,8 @@ h1{
 }
 section{
     height: 800px;
-    padding: 100px;
-    border: 2px solid red;
+    padding-botom: 100px;
+
 }
 .color{
     color: aqua;
@@ -41,4 +47,33 @@ section{
     font-weight: 800;
 
 
+}
+.dream-area{
+  background-image: url("images/background.png");  
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.single-experience{
+    box-shadow: 5px 5px 30px rgb(155, 57, 57);
+    border-radius: 5px;
+    height: 50%;
+}
+.experience-area{
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#full-stack{
+ border-left: 6px solid;  
+  border-image: linear-gradient(180deg, pink, orange);
+  border-image-slice: 1;
+}
+#new{
+   border-left:6px solid ;
+   border-image: linear-gradient(180deg,rgb(43, 43, 126), rgb(26, 83, 85) ); 
+   border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: red;
 }
